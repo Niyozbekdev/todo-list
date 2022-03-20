@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+td{
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+td:hover{
+    background: #777;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+}
+label{
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: 530;
+
+}
+.mx-auto{
+    width: 100%;
+    min-height: 90vh;
+    background: linear-gradient(145deg, #64b3f4, #c2e59c);
+}
+.mx-auto h1{
+    text-align: center;
+    padding: 10px 20px;
+    color: #000;
+    background: #77b1a3;
+    box-shadow: 0 10px 10px rgba(255, 255, 255, 0.59);
+}
+.btn{
+    margin-top: 20px;
+    transition: all 0.5s ease;
+    background:#deb887;
+    color: #000;
+}
+.btn:hover{
+    background: #77b1a3;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600px;
+}
+#book-form{
+    margin: 40px auto 0 auto;
+    min-height: 280px;
+    width: 60%;
+    border-radius: 10px;
+    
+}
+td{
+    padding: 15px 0;
+}
+.mx-auto #table{
+    margin: 20px auto 0 auto;
+    min-height: 100px;
+    width: 60%;
+    text-align: center;
+    border-top: 2px solid #999;
+}

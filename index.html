@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mx-auto">
+        <h1>Todo list</h1>
+        <form id="book-form">
+            <div class="titlegroup">
+                <label for="title">Title</label><br>
+                <input type="text" id="title" placeholder="Title" class="titleinput">
+            </div>
+            <div class="authorgroup">
+                <label for="author">Author</label><br>
+                <input type="text" id="author" placeholder="Author" class="authorinput">
+            </div>
+            <div class="yeargroup">
+                <label for="year">Year</label><br>
+                <input type="text" id="year" placeholder="Year" class="yearinput">
+            </div>
+            <input type="button" value="Add Book" class="btn">
+        </form>
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Authot</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody id="booklist"></tbody>
+        </table>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
